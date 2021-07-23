@@ -1,37 +1,38 @@
 # Digital_Unit_CPU
+
 singlecycle cpu / pipeline cpu
 
-##ÎÄ¼ş¼Ğ
+## æ–‡ä»¶å¤¹
 
-`singlecyclecpu` ÎŞI/OµÄµ¥ÖÜÆÚCPU modelsim ¶¥²ãÎÄ¼şÎª`testbench.v`
+`singlecyclecpu` æ— I/Oçš„å•å‘¨æœŸCPU modelsim é¡¶å±‚æ–‡ä»¶ä¸º`testbench.v`
 
-`singlecyclecpuio` ÓĞI/OµÄµ¥ÖÜÆÚCPU ÏßÂ·Í¼¼û `»ù±¾µ¥ÖÜÆÚ CPU Éè¼Æ.docx`
+`singlecyclecpuio` æœ‰I/Oçš„å•å‘¨æœŸCPU çº¿è·¯å›¾è§ `åŸºæœ¬å•å‘¨æœŸ CPU è®¾è®¡.docx`
 
-`pipelinedCPU` ÎŞI/OµÄpipeline CPU modelsim ¶¥²ãÎÄ¼şÎª`testbench.v`
+`pipelinedCPU` æ— I/Oçš„pipeline CPU modelsim é¡¶å±‚æ–‡ä»¶ä¸º`testbench.v`
 
-`pipelinedCPUio` ÓĞI/OµÄpipeline CPU ÏßÂ·Í¼¼û `pipelineCPUÉè¼Æ.docx`
+`pipelinedCPUio` æœ‰I/Oçš„pipeline CPU çº¿è·¯å›¾è§ `pipelineCPUè®¾è®¡.docx`
 
-`materials` ËùÓĞ±ØĞëµÄ²Î¿¼×ÊÁÏ
+`materials` æ‰€æœ‰å¿…é¡»çš„å‚è€ƒèµ„æ–™
 
-##modelsim
+## modelsim
 
-½« source ÎÄ¼ş¼Ğ·ÅÓÚmodelsim¹¤³ÌµÄ¸ùÄ¿Â¼ÏÂ
-²¢½«ËùĞèµÄÖ¸Áî(ROM)ÎÄ¼ş ¸ÄÎª`sc_instmem.mif`ÎÄ¼şÃû
+å°† source æ–‡ä»¶å¤¹æ”¾äºmodelsimå·¥ç¨‹çš„æ ¹ç›®å½•ä¸‹
 
+å¹¶å°†æ‰€éœ€çš„æŒ‡ä»¤(ROM)æ–‡ä»¶ æ”¹ä¸º`sc_instmem.mif`æ–‡ä»¶å
 
-###ĞèÒªµÄÎÄ¼ş
+### éœ€è¦çš„æ–‡ä»¶
 
-`altera_lite\15.1\quartus\eda\sim_lib` ÏÂµÄ
+`altera_lite\15.1\quartus\eda\sim_lib` ä¸‹çš„
 
-`220model.v` ºÍ `altera_mf.v`
+`220model.v` å’Œ `altera_mf.v`
 
 convert_hex2ver.dll
 
-##I/O
+## I/O
 
-|-|ÎÄ¼ş|
+|-|æ–‡ä»¶|
 |---|---|
-| ÈëÃÅ | `My_First_Fpga.pdf` |
+| å…¥é—¨ | `My_First_Fpga.pdf` |
 | pin | `DE1-SoC_User_manual.pdf` |
-| ModelSim |`ModelSim-AlteraÊ¹ÓÃ·½·¨.pdf`|
-| Í¼±í²Î¿¼ |`Real_Value_Table_to student.xls`|
+| ModelSim |`ModelSim-Alteraä½¿ç”¨æ–¹æ³•.pdf`|
+| å›¾è¡¨å‚è€ƒ |`Real_Value_Table_to student.xls`|
